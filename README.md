@@ -1,38 +1,55 @@
-# create-svelte
+# URL Shortener
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+This is a URL shortener project built with SvelteKit.
 
-## Creating a project
+## Prerequisites
 
-If you're seeing this, you've probably already done this step. Congrats!
+Before you begin, ensure you have met the following requirements:
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+- You have installed the latest version of [Node.js and npm](https://nodejs.org/en/download/).
+- You have a Windows/Linux/Mac machine.
+- You have installed [MongoDB](https://www.mongodb.com/try/download/community).
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## Setup
 
-## Developing
+To set up the project, follow these steps:
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+1. Clone the repository:
 
-```bash
-npm run dev
+   ```bash
+   git clone https://github.com/bmqube/url-shortner.git
+   ```
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+2. Navigate to the project directory:
 
-## Building
+   ```bash
+   cd url-shortner
+   ```
 
-To create a production version of your app:
+3. Rename the `.env copy` file to `.env`:
 
-```bash
-npm run build
-```
+   ```shell
+   mv .env_example .env
+   ```
 
-You can preview the production build with `npm run preview`.
+4. Open the `.env` file and add your MongoDB URI:
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+   ```shell
+   MONGODB_URI=your-mongodb-uri
+   ```
+
+5. Save the `.env` file.
+
+6. Install the dependencies:
+
+   ```bash
+   npm install
+   ```
+
+7. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+8. Open your browser and visit `http://localhost:5173` to see the app in action.
