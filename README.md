@@ -17,13 +17,13 @@ To set up the project, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/bmqube/url-shortner.git
+   git clone https://github.com/bmqube/URL_Shortner.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd url-shortner
+   cd URL_Shortner
    ```
 
 3. Rename the `.env copy` file to `.env`:
