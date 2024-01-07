@@ -53,3 +53,9 @@ To set up the project, follow these steps:
    ```
 
 8. Open your browser and visit `http://localhost:5173` to see the app in action.
+
+## Technologies Used
+
+- SvelteKit
+- MongoDB
+- Tailwind
